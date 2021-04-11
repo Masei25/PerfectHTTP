@@ -1,0 +1,24 @@
+{
+    "description": "A lightweight PHP library for sending HTTP requests",
+    "name": "olu-sammy/perfecthttp",
+    "authors": [
+        {
+            "name": "Olu Sammy",
+            "email": "masei25@gmail.com"
+        }
+    ],
+    "require": {},
+    "repositories": [
+      {
+         "type": "vcs",
+         "url": "https://github.com/masei25/PerfectHTTP" 
+      }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+
+}
